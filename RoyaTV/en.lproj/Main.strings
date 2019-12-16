@@ -1,0 +1,24 @@
+
+/* Class = "UITabBarItem"; title = "Common news"; ObjectID = "3gb-Tk-rtp"; */
+"3gb-Tk-rtp.title" = "Common news";
+
+/* Class = "UILabel"; text = "Main news"; ObjectID = "His-5z-C6t"; */
+"His-5z-C6t.text" = "Main news";
+
+/* Class = "UITabBarItem"; title = "Latest news"; ObjectID = "bwn-gw-uTG"; */
+"bwn-gw-uTG.title" = "Latest news";
+
+/* Class = "UILabel"; text = "My news"; ObjectID = "esd-BA-llC"; */
+"esd-BA-llC.text" = "My news";
+
+/* Class = "UILabel"; text = "Common news"; ObjectID = "hzT-Oe-PY3"; */
+"hzT-Oe-PY3.text" = "Common news";
+
+/* Class = "UITabBarItem"; title = "My news"; ObjectID = "ieS-tF-o6q"; */
+"ieS-tF-o6q.title" = "My news";
+
+/* Class = "UILabel"; text = "Latest news"; ObjectID = "n3i-R4-ceW"; */
+"n3i-R4-ceW.text" = "Latest news";
+
+/* Class = "UITabBarItem"; title = "Main news"; ObjectID = "ubS-T7-kaF"; */
+"ubS-T7-kaF.title" = "Main news";

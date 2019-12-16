@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0618E2CA23A15D5700E74158 /* LocalNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618E2C923A15D5700E74158 /* LocalNewsViewController.swift */; };
+		0618E2CC23A15D7200E74158 /* PagerMainNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618E2CB23A15D7200E74158 /* PagerMainNewsViewController.swift */; };
+		06C02CDA23A2207400B0C83C /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C02CD923A2207400B0C83C /* SplashScreenViewController.swift */; };
+		21416321DB6B7B4E669767B0 /* Pods_RoyaTVTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3F32C6EA612CDEEA713923 /* Pods_RoyaTVTests.framework */; };
+		8B2E6B14231C92C00070F6B1 /* EconomicsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2E6B13231C92C00070F6B1 /* EconomicsTableViewCell.swift */; };
+		8B2E6B17231C94180070F6B1 /* EconomicsNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2E6B16231C94180070F6B1 /* EconomicsNewsModel.swift */; };
+		8B2E6B1A231C94710070F6B1 /* PalestineNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2E6B19231C94710070F6B1 /* PalestineNewsModel.swift */; };
+		8B2E6B1D231C9D350070F6B1 /* PalestineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2E6B1C231C9D350070F6B1 /* PalestineViewController.swift */; };
+		8B2E6B1F231C9EF70070F6B1 /* PalestineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2E6B1E231C9EF70070F6B1 /* PalestineTableViewCell.swift */; };
+		8B8792DA231AF8BD0042F2F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8792D9231AF8BD0042F2F6 /* AppDelegate.swift */; };
+		8B8792DF231AF8BD0042F2F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8792DD231AF8BD0042F2F6 /* Main.storyboard */; };
+		8B8792E1231AF8BE0042F2F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8792E0231AF8BE0042F2F6 /* Assets.xcassets */; };
+		8B8792E4231AF8BE0042F2F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8792E2231AF8BE0042F2F6 /* LaunchScreen.storyboard */; };
+		8B8792EF231AF8BE0042F2F6 /* RoyaTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8792EE231AF8BE0042F2F6 /* RoyaTVTests.swift */; };
+		8B8792FA231AF8BE0042F2F6 /* RoyaTVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8792F9231AF8BE0042F2F6 /* RoyaTVUITests.swift */; };
+		8B879328231BC2CC0042F2F6 /* MainNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879327231BC2CC0042F2F6 /* MainNewsViewController.swift */; };
+		8B87932D231BC8E30042F2F6 /* MainObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87932C231BC8E30042F2F6 /* MainObject.swift */; };
+		8B87932F231BC9C00042F2F6 /* MainNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87932E231BC9C00042F2F6 /* MainNewsModel.swift */; };
+		8B879333231BCBE20042F2F6 /* SliderNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879332231BCBE20042F2F6 /* SliderNewsModel.swift */; };
+		8B879336231BCCA80042F2F6 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879335231BCCA80042F2F6 /* NewsModel.swift */; };
+		8B879338231BCD3F0042F2F6 /* SectionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879337231BCD3F0042F2F6 /* SectionsModel.swift */; };
+		8B87933B231BCED50042F2F6 /* BaseCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87933A231BCED50042F2F6 /* BaseCaller.swift */; };
+		8B87933D231BCF190042F2F6 /* NewsCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87933C231BCF190042F2F6 /* NewsCaller.swift */; };
+		8B879341231BD1C10042F2F6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879340231BD1C10042F2F6 /* Utility.swift */; };
+		8B87934B231C03FC0042F2F6 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87934A231C03FC0042F2F6 /* NewsTableViewCell.swift */; };
+		8B87934D231C2C830042F2F6 /* LocalNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87934C231C2C830042F2F6 /* LocalNewsTableViewCell.swift */; };
+		8B87934F231C30010042F2F6 /* MyNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87934E231C30010042F2F6 /* MyNewsModel.swift */; };
+		8B879351231C311E0042F2F6 /* MyNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879350231C311E0042F2F6 /* MyNewsViewController.swift */; };
+		8B879353231C33640042F2F6 /* MyNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879352231C33640042F2F6 /* MyNewsTableViewCell.swift */; };
+		8B879355231C3E230042F2F6 /* LatestNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879354231C3E230042F2F6 /* LatestNewsModel.swift */; };
+		8B879357231C3FD30042F2F6 /* LatestNewsObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879356231C3FD30042F2F6 /* LatestNewsObject.swift */; };
+		8B879359231C41540042F2F6 /* LatestNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879358231C41540042F2F6 /* LatestNewsViewController.swift */; };
+		8B87935B231C432D0042F2F6 /* LatestNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87935A231C432D0042F2F6 /* LatestNewsTableViewCell.swift */; };
+		8B879361231C49070042F2F6 /* MostViewedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879360231C49070042F2F6 /* MostViewedModel.swift */; };
+		8B879363231C4AB60042F2F6 /* MostViewedNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879362231C4AB60042F2F6 /* MostViewedNewsViewController.swift */; };
+		8B879365231C4B310042F2F6 /* MostViewedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879364231C4B310042F2F6 /* MostViewedTableViewCell.swift */; };
+		8B879375231C6FD60042F2F6 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B87936E231C6FD60042F2F6 /* UIViewController+MMDrawerController.m */; };
+		8B879376231C6FD60042F2F6 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B87936F231C6FD60042F2F6 /* MMDrawerVisualState.m */; };
+		8B879377231C6FD60042F2F6 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B879371231C6FD60042F2F6 /* MMDrawerController.m */; };
+		8B879378231C6FD60042F2F6 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B879372231C6FD60042F2F6 /* MMDrawerBarButtonItem.m */; };
+		8B87937A231C705A0042F2F6 /* RightSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B879379231C705A0042F2F6 /* RightSideMenuViewController.swift */; };
+		8B87937C231C72360042F2F6 /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87937B231C72360042F2F6 /* MyTabBarController.swift */; };
+		8B879380231C91280042F2F6 /* EconomicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87937F231C91280042F2F6 /* EconomicsViewController.swift */; };
+		8BBFD783231DEDB3003507FD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBFD782231DEDB3003507FD /* Extensions.swift */; };
+		8BBFD785231DEF8A003507FD /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBFD784231DEF8A003507FD /* Enums.swift */; };
+		8BBFD787231E6A15003507FD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BBFD786231E6A15003507FD /* Constants.swift */; };
+		D3B677F36AAE2CAF776F694A /* Pods_RoyaTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 425F746353DA43EFF1BAE3F8 /* Pods_RoyaTV.framework */; };
+		D7C7D34985DB8FC349387D11 /* Pods_RoyaTVUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B79398044EB5E9BE7A023ED8 /* Pods_RoyaTVUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B8792EB231AF8BE0042F2F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B8792CE231AF8BD0042F2F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8792D5231AF8BD0042F2F6;
+			remoteInfo = RoyaTV;
+		};
+		8B8792F6231AF8BE0042F2F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B8792CE231AF8BD0042F2F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8792D5231AF8BD0042F2F6;
+			remoteInfo = RoyaTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0618E2C923A15D5700E74158 /* LocalNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNewsViewController.swift; sourceTree = "<group>"; };
+		0618E2CB23A15D7200E74158 /* PagerMainNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerMainNewsViewController.swift; sourceTree = "<group>"; };
+		06C02CD923A2207400B0C83C /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		1B5FFA4F12C3A37040941BFA /* Pods-RoyaTVUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyaTVUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoyaTVUITests/Pods-RoyaTVUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20952E6A0BE28CE2C4ABE658 /* Pods-RoyaTVTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyaTVTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoyaTVTests/Pods-RoyaTVTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A545DED53862A8E97954944 /* Pods-RoyaTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyaTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoyaTV/Pods-RoyaTV.debug.xcconfig"; sourceTree = "<group>"; };
+		425F746353DA43EFF1BAE3F8 /* Pods_RoyaTV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoyaTV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B2E6B13231C92C00070F6B1 /* EconomicsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicsTableViewCell.swift; sourceTree = "<group>"; };
+		8B2E6B16231C94180070F6B1 /* EconomicsNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicsNewsModel.swift; sourceTree = "<group>"; };
+		8B2E6B19231C94710070F6B1 /* PalestineNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalestineNewsModel.swift; sourceTree = "<group>"; };
+		8B2E6B1C231C9D350070F6B1 /* PalestineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalestineViewController.swift; sourceTree = "<group>"; };
+		8B2E6B1E231C9EF70070F6B1 /* PalestineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalestineTableViewCell.swift; sourceTree = "<group>"; };
+		8B8792D6231AF8BD0042F2F6 /* RoyaTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoyaTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8792D9231AF8BD0042F2F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B8792E0231AF8BE0042F2F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B8792E5231AF8BE0042F2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8792EA231AF8BE0042F2F6 /* RoyaTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyaTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8792EE231AF8BE0042F2F6 /* RoyaTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoyaTVTests.swift; sourceTree = "<group>"; };
+		8B8792F0231AF8BE0042F2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8792F5231AF8BE0042F2F6 /* RoyaTVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoyaTVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8792F9231AF8BE0042F2F6 /* RoyaTVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoyaTVUITests.swift; sourceTree = "<group>"; };
+		8B8792FB231AF8BE0042F2F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B87930B231AFA7A0042F2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B87930C231AFA7A0042F2F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8B879327231BC2CC0042F2F6 /* MainNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNewsViewController.swift; sourceTree = "<group>"; };
+		8B87932C231BC8E30042F2F6 /* MainObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainObject.swift; sourceTree = "<group>"; };
+		8B87932E231BC9C00042F2F6 /* MainNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNewsModel.swift; sourceTree = "<group>"; };
+		8B879332231BCBE20042F2F6 /* SliderNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderNewsModel.swift; sourceTree = "<group>"; };
+		8B879335231BCCA80042F2F6 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		8B879337231BCD3F0042F2F6 /* SectionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsModel.swift; sourceTree = "<group>"; };
+		8B87933A231BCED50042F2F6 /* BaseCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCaller.swift; sourceTree = "<group>"; };
+		8B87933C231BCF190042F2F6 /* NewsCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCaller.swift; sourceTree = "<group>"; };
+		8B879340231BD1C10042F2F6 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		8B87934A231C03FC0042F2F6 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		8B87934C231C2C830042F2F6 /* LocalNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalNewsTableViewCell.swift; path = RoyaTV/Views/Cells/LocalNewsTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		8B87934E231C30010042F2F6 /* MyNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewsModel.swift; sourceTree = "<group>"; };
+		8B879350231C311E0042F2F6 /* MyNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewsViewController.swift; sourceTree = "<group>"; };
+		8B879352231C33640042F2F6 /* MyNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewsTableViewCell.swift; sourceTree = "<group>"; };
+		8B879354231C3E230042F2F6 /* LatestNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestNewsModel.swift; sourceTree = "<group>"; };
+		8B879356231C3FD30042F2F6 /* LatestNewsObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestNewsObject.swift; sourceTree = "<group>"; };
+		8B879358231C41540042F2F6 /* LatestNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestNewsViewController.swift; sourceTree = "<group>"; };
+		8B87935A231C432D0042F2F6 /* LatestNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LatestNewsTableViewCell.swift; sourceTree = "<group>"; };
+		8B879360231C49070042F2F6 /* MostViewedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewedModel.swift; sourceTree = "<group>"; };
+		8B879362231C4AB60042F2F6 /* MostViewedNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewedNewsViewController.swift; sourceTree = "<group>"; };
+		8B879364231C4B310042F2F6 /* MostViewedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViewedTableViewCell.swift; sourceTree = "<group>"; };
+		8B87936B231C6FD50042F2F6 /* RoyaTV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoyaTV-Bridging-Header.h"; sourceTree = "<group>"; };
+		8B87936C231C6FD60042F2F6 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		8B87936D231C6FD60042F2F6 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		8B87936E231C6FD60042F2F6 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		8B87936F231C6FD60042F2F6 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		8B879370231C6FD60042F2F6 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		8B879371231C6FD60042F2F6 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		8B879372231C6FD60042F2F6 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		8B879373231C6FD60042F2F6 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		8B879374231C6FD60042F2F6 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		8B879379231C705A0042F2F6 /* RightSideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSideMenuViewController.swift; sourceTree = "<group>"; };
+		8B87937B231C72360042F2F6 /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		8B87937F231C91280042F2F6 /* EconomicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EconomicsViewController.swift; sourceTree = "<group>"; };
+		8BBFD782231DEDB3003507FD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8BBFD784231DEF8A003507FD /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		8BBFD786231E6A15003507FD /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8F5F6E7B208C90706F2EBE23 /* Pods-RoyaTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyaTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoyaTV/Pods-RoyaTV.release.xcconfig"; sourceTree = "<group>"; };
+		B3806E20913C76915AE17F63 /* Pods-RoyaTVTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyaTVTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoyaTVTests/Pods-RoyaTVTests.release.xcconfig"; sourceTree = "<group>"; };
+		B79398044EB5E9BE7A023ED8 /* Pods_RoyaTVUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoyaTVUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE3F32C6EA612CDEEA713923 /* Pods_RoyaTVTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoyaTVTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE9CF4C7415851EDA79764A5 /* Pods-RoyaTVUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoyaTVUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoyaTVUITests/Pods-RoyaTVUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B8792D3231AF8BD0042F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B677F36AAE2CAF776F694A /* Pods_RoyaTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8792E7231AF8BE0042F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21416321DB6B7B4E669767B0 /* Pods_RoyaTVTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8792F2231AF8BE0042F2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7D34985DB8FC349387D11 /* Pods_RoyaTVUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2402D5D9308FEB7640BB511B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A545DED53862A8E97954944 /* Pods-RoyaTV.debug.xcconfig */,
+				8F5F6E7B208C90706F2EBE23 /* Pods-RoyaTV.release.xcconfig */,
+				20952E6A0BE28CE2C4ABE658 /* Pods-RoyaTVTests.debug.xcconfig */,
+				B3806E20913C76915AE17F63 /* Pods-RoyaTVTests.release.xcconfig */,
+				1B5FFA4F12C3A37040941BFA /* Pods-RoyaTVUITests.debug.xcconfig */,
+				BE9CF4C7415851EDA79764A5 /* Pods-RoyaTVUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B2E6B15231C94030070F6B1 /* Economics News */ = {
+			isa = PBXGroup;
+			children = (
+				8B2E6B16231C94180070F6B1 /* EconomicsNewsModel.swift */,
+			);
+			path = "Economics News";
+			sourceTree = "<group>";
+		};
+		8B2E6B18231C94620070F6B1 /* Palestine News */ = {
+			isa = PBXGroup;
+			children = (
+				8B2E6B19231C94710070F6B1 /* PalestineNewsModel.swift */,
+			);
+			path = "Palestine News";
+			sourceTree = "<group>";
+		};
+		8B2E6B1B231C94B70070F6B1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8B879335231BCCA80042F2F6 /* NewsModel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8B8792CD231AF8BD0042F2F6 = {
+			isa = PBXGroup;
+			children = (
+				8B8792D8231AF8BD0042F2F6 /* RoyaTV */,
+				8B8792ED231AF8BE0042F2F6 /* RoyaTVTests */,
+				8B8792F8231AF8BE0042F2F6 /* RoyaTVUITests */,
+				8B8792D7231AF8BD0042F2F6 /* Products */,
+				2402D5D9308FEB7640BB511B /* Pods */,
+				AC6458B0308B93EB5E2068CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8792D7231AF8BD0042F2F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8792D6231AF8BD0042F2F6 /* RoyaTV.app */,
+				8B8792EA231AF8BE0042F2F6 /* RoyaTVTests.xctest */,
+				8B8792F5231AF8BE0042F2F6 /* RoyaTVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B8792D8231AF8BD0042F2F6 /* RoyaTV */ = {
+			isa = PBXGroup;
+			children = (
+				8B8792D9231AF8BD0042F2F6 /* AppDelegate.swift */,
+				8B87936A231C6F7D0042F2F6 /* MMDrawerController */,
+				8BBFD781231DED98003507FD /* Helpers */,
+				8B879339231BCECA0042F2F6 /* Caller */,
+				8B879322231B08E60042F2F6 /* Views */,
+				8B879321231B08CB0042F2F6 /* Models */,
+				8B879320231B08C00042F2F6 /* Controllers */,
+				8B8792E0231AF8BE0042F2F6 /* Assets.xcassets */,
+				8B8792E5231AF8BE0042F2F6 /* Info.plist */,
+			);
+			path = RoyaTV;
+			sourceTree = "<group>";
+		};
+		8B8792ED231AF8BE0042F2F6 /* RoyaTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B8792EE231AF8BE0042F2F6 /* RoyaTVTests.swift */,
+				8B8792F0231AF8BE0042F2F6 /* Info.plist */,
+			);
+			path = RoyaTVTests;
+			sourceTree = "<group>";
+		};
+		8B8792F8231AF8BE0042F2F6 /* RoyaTVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B8792F9231AF8BE0042F2F6 /* RoyaTVUITests.swift */,
+				8B8792FB231AF8BE0042F2F6 /* Info.plist */,
+			);
+			path = RoyaTVUITests;
+			sourceTree = "<group>";
+		};
+		8B87931F231B08B30042F2F6 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8B8792DD231AF8BD0042F2F6 /* Main.storyboard */,
+				8B8792E2231AF8BE0042F2F6 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8B879320231B08C00042F2F6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B87937B231C72360042F2F6 /* MyTabBarController.swift */,
+				8B879379231C705A0042F2F6 /* RightSideMenuViewController.swift */,
+				8B879327231BC2CC0042F2F6 /* MainNewsViewController.swift */,
+				8B879350231C311E0042F2F6 /* MyNewsViewController.swift */,
+				8B879358231C41540042F2F6 /* LatestNewsViewController.swift */,
+				8B879362231C4AB60042F2F6 /* MostViewedNewsViewController.swift */,
+				8B87937F231C91280042F2F6 /* EconomicsViewController.swift */,
+				8B2E6B1C231C9D350070F6B1 /* PalestineViewController.swift */,
+				0618E2C923A15D5700E74158 /* LocalNewsViewController.swift */,
+				0618E2CB23A15D7200E74158 /* PagerMainNewsViewController.swift */,
+				06C02CD923A2207400B0C83C /* SplashScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B879321231B08CB0042F2F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B2E6B1B231C94B70070F6B1 /* Common */,
+				8B2E6B18231C94620070F6B1 /* Palestine News */,
+				8B2E6B15231C94030070F6B1 /* Economics News */,
+				8B879367231C6DCF0042F2F6 /* Main News */,
+				8B879368231C6DE60042F2F6 /* My News */,
+				8B879366231C6DBA0042F2F6 /* Latest News */,
+				8B879369231C6E530042F2F6 /* Most Viewed News */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B879322231B08E60042F2F6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B879329231BC7260042F2F6 /* Cells */,
+				8B87931F231B08B30042F2F6 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B879329231BC7260042F2F6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8B87934C231C2C830042F2F6 /* LocalNewsTableViewCell.swift */,
+				8B87934A231C03FC0042F2F6 /* NewsTableViewCell.swift */,
+				8B879352231C33640042F2F6 /* MyNewsTableViewCell.swift */,
+				8B87935A231C432D0042F2F6 /* LatestNewsTableViewCell.swift */,
+				8B879364231C4B310042F2F6 /* MostViewedTableViewCell.swift */,
+				8B2E6B13231C92C00070F6B1 /* EconomicsTableViewCell.swift */,
+				8B2E6B1E231C9EF70070F6B1 /* PalestineTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8B879339231BCECA0042F2F6 /* Caller */ = {
+			isa = PBXGroup;
+			children = (
+				8B87933A231BCED50042F2F6 /* BaseCaller.swift */,
+				8B87933C231BCF190042F2F6 /* NewsCaller.swift */,
+			);
+			path = Caller;
+			sourceTree = "<group>";
+		};
+		8B879366231C6DBA0042F2F6 /* Latest News */ = {
+			isa = PBXGroup;
+			children = (
+				8B879354231C3E230042F2F6 /* LatestNewsModel.swift */,
+				8B879356231C3FD30042F2F6 /* LatestNewsObject.swift */,
+			);
+			path = "Latest News";
+			sourceTree = "<group>";
+		};
+		8B879367231C6DCF0042F2F6 /* Main News */ = {
+			isa = PBXGroup;
+			children = (
+				8B879332231BCBE20042F2F6 /* SliderNewsModel.swift */,
+				8B879337231BCD3F0042F2F6 /* SectionsModel.swift */,
+				8B87932C231BC8E30042F2F6 /* MainObject.swift */,
+				8B87932E231BC9C00042F2F6 /* MainNewsModel.swift */,
+			);
+			path = "Main News";
+			sourceTree = "<group>";
+		};
+		8B879368231C6DE60042F2F6 /* My News */ = {
+			isa = PBXGroup;
+			children = (
+				8B87934E231C30010042F2F6 /* MyNewsModel.swift */,
+			);
+			path = "My News";
+			sourceTree = "<group>";
+		};
+		8B879369231C6E530042F2F6 /* Most Viewed News */ = {
+			isa = PBXGroup;
+			children = (
+				8B879360231C49070042F2F6 /* MostViewedModel.swift */,
+			);
+			path = "Most Viewed News";
+			sourceTree = "<group>";
+		};
+		8B87936A231C6F7D0042F2F6 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				8B87936C231C6FD60042F2F6 /* MMDrawerBarButtonItem.h */,
+				8B879372231C6FD60042F2F6 /* MMDrawerBarButtonItem.m */,
+				8B879374231C6FD60042F2F6 /* MMDrawerController.h */,
+				8B879371231C6FD60042F2F6 /* MMDrawerController.m */,
+				8B87936D231C6FD60042F2F6 /* MMDrawerController+Subclass.h */,
+				8B879370231C6FD60042F2F6 /* MMDrawerVisualState.h */,
+				8B87936F231C6FD60042F2F6 /* MMDrawerVisualState.m */,
+				8B879373231C6FD60042F2F6 /* UIViewController+MMDrawerController.h */,
+				8B87936E231C6FD60042F2F6 /* UIViewController+MMDrawerController.m */,
+				8B87936B231C6FD50042F2F6 /* RoyaTV-Bridging-Header.h */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		8BBFD781231DED98003507FD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8B879340231BD1C10042F2F6 /* Utility.swift */,
+				8BBFD782231DEDB3003507FD /* Extensions.swift */,
+				8BBFD784231DEF8A003507FD /* Enums.swift */,
+				8BBFD786231E6A15003507FD /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		AC6458B0308B93EB5E2068CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				425F746353DA43EFF1BAE3F8 /* Pods_RoyaTV.framework */,
+				BE3F32C6EA612CDEEA713923 /* Pods_RoyaTVTests.framework */,
+				B79398044EB5E9BE7A023ED8 /* Pods_RoyaTVUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B8792D5231AF8BD0042F2F6 /* RoyaTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8792FE231AF8BE0042F2F6 /* Build configuration list for PBXNativeTarget "RoyaTV" */;
+			buildPhases = (
+				A913334DC000E1C3DAAEFCA7 /* [CP] Check Pods Manifest.lock */,
+				8B8792D2231AF8BD0042F2F6 /* Sources */,
+				8B8792D3231AF8BD0042F2F6 /* Frameworks */,
+				8B8792D4231AF8BD0042F2F6 /* Resources */,
+				3C51C53E4DAAE49A81A84172 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoyaTV;
+			productName = RoyaTV;
+			productReference = 8B8792D6231AF8BD0042F2F6 /* RoyaTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B8792E9231AF8BE0042F2F6 /* RoyaTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B879301231AF8BE0042F2F6 /* Build configuration list for PBXNativeTarget "RoyaTVTests" */;
+			buildPhases = (
+				769AFEB3676AA0C4C03AD4DD /* [CP] Check Pods Manifest.lock */,
+				8B8792E6231AF8BE0042F2F6 /* Sources */,
+				8B8792E7231AF8BE0042F2F6 /* Frameworks */,
+				8B8792E8231AF8BE0042F2F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B8792EC231AF8BE0042F2F6 /* PBXTargetDependency */,
+			);
+			name = RoyaTVTests;
+			productName = RoyaTVTests;
+			productReference = 8B8792EA231AF8BE0042F2F6 /* RoyaTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B8792F4231AF8BE0042F2F6 /* RoyaTVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B879304231AF8BE0042F2F6 /* Build configuration list for PBXNativeTarget "RoyaTVUITests" */;
+			buildPhases = (
+				866B5BA965EC48BB780B3345 /* [CP] Check Pods Manifest.lock */,
+				8B8792F1231AF8BE0042F2F6 /* Sources */,
+				8B8792F2231AF8BE0042F2F6 /* Frameworks */,
+				8B8792F3231AF8BE0042F2F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B8792F7231AF8BE0042F2F6 /* PBXTargetDependency */,
+			);
+			name = RoyaTVUITests;
+			productName = RoyaTVUITests;
+			productReference = 8B8792F5231AF8BE0042F2F6 /* RoyaTVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B8792CE231AF8BD0042F2F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Ali Shaker";
+				TargetAttributes = {
+					8B8792D5231AF8BD0042F2F6 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
+					};
+					8B8792E9231AF8BE0042F2F6 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8B8792D5231AF8BD0042F2F6;
+					};
+					8B8792F4231AF8BE0042F2F6 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8B8792D5231AF8BD0042F2F6;
+					};
+				};
+			};
+			buildConfigurationList = 8B8792D1231AF8BD0042F2F6 /* Build configuration list for PBXProject "RoyaTV" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8B8792CD231AF8BD0042F2F6;
+			productRefGroup = 8B8792D7231AF8BD0042F2F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B8792D5231AF8BD0042F2F6 /* RoyaTV */,
+				8B8792E9231AF8BE0042F2F6 /* RoyaTVTests */,
+				8B8792F4231AF8BE0042F2F6 /* RoyaTVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B8792D4231AF8BD0042F2F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8792E4231AF8BE0042F2F6 /* LaunchScreen.storyboard in Resources */,
+				8B8792E1231AF8BE0042F2F6 /* Assets.xcassets in Resources */,
+				8B8792DF231AF8BD0042F2F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8792E8231AF8BE0042F2F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8792F3231AF8BE0042F2F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C51C53E4DAAE49A81A84172 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoyaTV/Pods-RoyaTV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RoyaTV/Pods-RoyaTV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RoyaTV/Pods-RoyaTV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		769AFEB3676AA0C4C03AD4DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoyaTVTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		866B5BA965EC48BB780B3345 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoyaTVUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A913334DC000E1C3DAAEFCA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoyaTV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B8792D2231AF8BD0042F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B87934F231C30010042F2F6 /* MyNewsModel.swift in Sources */,
+				8B2E6B1F231C9EF70070F6B1 /* PalestineTableViewCell.swift in Sources */,
+				8B879341231BD1C10042F2F6 /* Utility.swift in Sources */,
+				8B879351231C311E0042F2F6 /* MyNewsViewController.swift in Sources */,
+				8B879328231BC2CC0042F2F6 /* MainNewsViewController.swift in Sources */,
+				8B879365231C4B310042F2F6 /* MostViewedTableViewCell.swift in Sources */,
+				8B87934B231C03FC0042F2F6 /* NewsTableViewCell.swift in Sources */,
+				8B2E6B1A231C94710070F6B1 /* PalestineNewsModel.swift in Sources */,
+				8B879333231BCBE20042F2F6 /* SliderNewsModel.swift in Sources */,
+				8B87937A231C705A0042F2F6 /* RightSideMenuViewController.swift in Sources */,
+				8B879357231C3FD30042F2F6 /* LatestNewsObject.swift in Sources */,
+				8B87934D231C2C830042F2F6 /* LocalNewsTableViewCell.swift in Sources */,
+				8B879359231C41540042F2F6 /* LatestNewsViewController.swift in Sources */,
+				0618E2CA23A15D5700E74158 /* LocalNewsViewController.swift in Sources */,
+				8B879336231BCCA80042F2F6 /* NewsModel.swift in Sources */,
+				8B2E6B14231C92C00070F6B1 /* EconomicsTableViewCell.swift in Sources */,
+				8B879378231C6FD60042F2F6 /* MMDrawerBarButtonItem.m in Sources */,
+				8B87937C231C72360042F2F6 /* MyTabBarController.swift in Sources */,
+				06C02CDA23A2207400B0C83C /* SplashScreenViewController.swift in Sources */,
+				8B87932D231BC8E30042F2F6 /* MainObject.swift in Sources */,
+				8B2E6B1D231C9D350070F6B1 /* PalestineViewController.swift in Sources */,
+				8B879376231C6FD60042F2F6 /* MMDrawerVisualState.m in Sources */,
+				8BBFD783231DEDB3003507FD /* Extensions.swift in Sources */,
+				8B879353231C33640042F2F6 /* MyNewsTableViewCell.swift in Sources */,
+				8B87933B231BCED50042F2F6 /* BaseCaller.swift in Sources */,
+				8B879380231C91280042F2F6 /* EconomicsViewController.swift in Sources */,
+				8B879355231C3E230042F2F6 /* LatestNewsModel.swift in Sources */,
+				8B879377231C6FD60042F2F6 /* MMDrawerController.m in Sources */,
+				0618E2CC23A15D7200E74158 /* PagerMainNewsViewController.swift in Sources */,
+				8B8792DA231AF8BD0042F2F6 /* AppDelegate.swift in Sources */,
+				8B87932F231BC9C00042F2F6 /* MainNewsModel.swift in Sources */,
+				8B879375231C6FD60042F2F6 /* UIViewController+MMDrawerController.m in Sources */,
+				8B879361231C49070042F2F6 /* MostViewedModel.swift in Sources */,
+				8B879363231C4AB60042F2F6 /* MostViewedNewsViewController.swift in Sources */,
+				8B879338231BCD3F0042F2F6 /* SectionsModel.swift in Sources */,
+				8B87935B231C432D0042F2F6 /* LatestNewsTableViewCell.swift in Sources */,
+				8B87933D231BCF190042F2F6 /* NewsCaller.swift in Sources */,
+				8BBFD785231DEF8A003507FD /* Enums.swift in Sources */,
+				8BBFD787231E6A15003507FD /* Constants.swift in Sources */,
+				8B2E6B17231C94180070F6B1 /* EconomicsNewsModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8792E6231AF8BE0042F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8792EF231AF8BE0042F2F6 /* RoyaTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8792F1231AF8BE0042F2F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8792FA231AF8BE0042F2F6 /* RoyaTVUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B8792EC231AF8BE0042F2F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B8792D5231AF8BD0042F2F6 /* RoyaTV */;
+			targetProxy = 8B8792EB231AF8BE0042F2F6 /* PBXContainerItemProxy */;
+		};
+		8B8792F7231AF8BE0042F2F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B8792D5231AF8BD0042F2F6 /* RoyaTV */;
+			targetProxy = 8B8792F6231AF8BE0042F2F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B8792DD231AF8BD0042F2F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B87930B231AFA7A0042F2F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B8792E2231AF8BE0042F2F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B87930C231AFA7A0042F2F6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B8792FC231AF8BE0042F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B8792FD231AF8BE0042F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B8792FF231AF8BE0042F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A545DED53862A8E97954944 /* Pods-RoyaTV.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJKE76VVXP;
+				INFOPLIST_FILE = RoyaTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaker.RoyaTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoyaTV/MMDrawerController/RoyaTV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B879300231AF8BE0042F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F5F6E7B208C90706F2EBE23 /* Pods-RoyaTV.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJKE76VVXP;
+				INFOPLIST_FILE = RoyaTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaker.RoyaTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoyaTV/MMDrawerController/RoyaTV-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B879302231AF8BE0042F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20952E6A0BE28CE2C4ABE658 /* Pods-RoyaTVTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoyaTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaker.RoyaTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoyaTV.app/RoyaTV";
+			};
+			name = Debug;
+		};
+		8B879303231AF8BE0042F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3806E20913C76915AE17F63 /* Pods-RoyaTVTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoyaTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaker.RoyaTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoyaTV.app/RoyaTV";
+			};
+			name = Release;
+		};
+		8B879305231AF8BE0042F2F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5FFA4F12C3A37040941BFA /* Pods-RoyaTVUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoyaTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaker.RoyaTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoyaTV;
+			};
+			name = Debug;
+		};
+		8B879306231AF8BE0042F2F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE9CF4C7415851EDA79764A5 /* Pods-RoyaTVUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RoyaTVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaker.RoyaTVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoyaTV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B8792D1231AF8BD0042F2F6 /* Build configuration list for PBXProject "RoyaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8792FC231AF8BE0042F2F6 /* Debug */,
+				8B8792FD231AF8BE0042F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B8792FE231AF8BE0042F2F6 /* Build configuration list for PBXNativeTarget "RoyaTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8792FF231AF8BE0042F2F6 /* Debug */,
+				8B879300231AF8BE0042F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B879301231AF8BE0042F2F6 /* Build configuration list for PBXNativeTarget "RoyaTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B879302231AF8BE0042F2F6 /* Debug */,
+				8B879303231AF8BE0042F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B879304231AF8BE0042F2F6 /* Build configuration list for PBXNativeTarget "RoyaTVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B879305231AF8BE0042F2F6 /* Debug */,
+				8B879306231AF8BE0042F2F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B8792CE231AF8BD0042F2F6 /* Project object */;
+}

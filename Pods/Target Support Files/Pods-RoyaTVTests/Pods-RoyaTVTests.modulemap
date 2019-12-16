@@ -1,0 +1,6 @@
+framework module Pods_RoyaTVTests {
+  umbrella header "Pods-RoyaTVTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
